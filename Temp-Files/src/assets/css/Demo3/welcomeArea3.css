@@ -99,7 +99,7 @@
 
 .main-ilustration{
     position: relative;
-    background: url(../../img/core-img/hero-bg.png) no-repeat center 65%;
+    background: url(../../../asset/gamejam.png) no-repeat center 65%;
     height: 100vh;
     background-size: contain;
 }
@@ -119,7 +119,7 @@
 }
 .main-ilustration-4{
     position: relative;
-    background: url(../../img/svg/head-bg-1.svg) no-repeat center 65%;
+    background: url(../../../asset/gamejam.png) no-repeat center 65%;
     height: 100vh;
     background-size: cover;
 }
