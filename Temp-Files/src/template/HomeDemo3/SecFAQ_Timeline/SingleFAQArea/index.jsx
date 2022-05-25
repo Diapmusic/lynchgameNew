@@ -14,20 +14,13 @@ function SingleFAQArea () {
 		<div className="content">
 		
 			<div className="text-center">
-				{
-					active ?
+			
 						
-						<a  className="button mt-30" > {balance} MTV {`${account.substring(0 , 5)}........${account.substring(38)}`}</a>
-						:
-						<a  className="button mt-30" onClick={connect}>connect </a>
+				
 						
-						
-						
-						
+				<a  className="button mt-30" >connect </a>
 
-				}
-
-				<a  className="button mt-31" onClick={disconnect}>disconnect</a>
+				<a  className="button mt-31"  >disconnect</a>
 			    
 				<h3 className="text-center mb-30">TOKEN SALE ENDS IN</h3>
 			</div>
