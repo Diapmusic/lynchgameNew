@@ -65,7 +65,7 @@ let HomeDemo3 = () => {
       <Header />
       <div className="HomeDemo3">
         <SecWelcomeArea />
-        <SecVerticalSocial data={VerticalSocial} />
+        {/*<SecVerticalSocial data={VerticalSocial} />*/}
         <SecAboutUsClient img={HomeDemo3About1} />
         {/*<SecHowItWorks data={HowItWorksInfo} imgPhone={HomeDemo3ImgPhone} />*/}
         <SecTrust data={SingleCoolFact} />
@@ -74,8 +74,8 @@ let HomeDemo3 = () => {
         <div className="clearfix" />
         <SecOurServices data={service_single_content} />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo3BgRoadmap} />
-        <SecOurFeatures data={ServiceBlock} imgPhone={HomeDemo3ImgPhone} Rings={HomeDemo3RingsBg} />
-        <SecSubscribe data={SocialListIco} />
+        {/*<SecOurFeatures data={ServiceBlock} imgPhone={HomeDemo3ImgPhone} Rings={HomeDemo3RingsBg} />*/}
+        {/*<SecSubscribe data={SocialListIco} />*/}
         <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
         <SecDistribution img={HomeDemo3Allocation} data={TokenText} />
         <SecTeam data={TeamMember} />

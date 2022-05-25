@@ -10,10 +10,8 @@ const SecWhoWeContant = () => {
                 		<Span />
                 	))}
             </div>
-            <h4 data-aos="fade-up">We complete every project with extra care as customer need.</h4>
-            <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.</p>
-            <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magni, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. Fugit!</p>
-            <a className="btn dream-btn mt-30" href="#" data-aos="fade-up">Read More</a>
+            <h4 data-aos="fade-up">Lynch metaverse and VR EEG technology.</h4>
+            <p data-aos="fade-up">The Lynch metaverse is no different from the real world. It is a completely realistic 3D virtual world where players and creators can be a part of it. The Metaverse is the future of each players Asset. Players can create and own their imaginary virtual spirit realm in the real world.</p>
         </div>
     </div>
   );
