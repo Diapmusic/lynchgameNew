@@ -1,6 +1,8 @@
 import SectionHeading from '../../../components/SectionHeading'
 import Content from './Content'
 
+
+
 const SecOurServices = ({data}) => {
 
   return (
@@ -8,9 +10,8 @@ const SecOurServices = ({data}) => {
         <div className="container">
             
             <SectionHeading
-                title='Our Core Services'
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'
-            />
+                title='TOKENOMICS'
+                />
                 
 
             <div className="row">
@@ -19,6 +20,7 @@ const SecOurServices = ({data}) => {
                         key={key}
                         img={item.img}
                         title={item.title}
+                        text={item.text}
                     />
                 ))}
             </div>

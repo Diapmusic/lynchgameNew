@@ -2212,6 +2212,15 @@ p.artficial:before{
    .mt-30{
     margin-top: 30px
    }
+   .mt-31{
+        margin-top: -10px;
+        margin-left: 50%;
+        
+   }
+   .mt-32{
+        margin-top: 30px;
+        margin-right: 90%;
+   }
 }
 
 /* ##### 7.0 Video Area CSS ##### */
@@ -3746,4 +3755,8 @@ body.light-version {
 }
 .preview-demo:hover{
     color: #333
+}
+
+@media (max-width: 100px){
+    
 }

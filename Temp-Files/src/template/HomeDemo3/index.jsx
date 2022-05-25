@@ -72,12 +72,12 @@ let HomeDemo3 = () => {
         <SecAboutUs img={HomeDemo3Solution} />
         <SecDemoVideo img={HomeDemo3VideoBg4} />
         <div className="clearfix" />
-        <SecOurServices data={service_single_content} />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo3BgRoadmap} />
         {/*<SecOurFeatures data={ServiceBlock} imgPhone={HomeDemo3ImgPhone} Rings={HomeDemo3RingsBg} />*/}
         {/*<SecSubscribe data={SocialListIco} />*/}
-        <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
+        <SecOurServices data={service_single_content} />
         <SecDistribution img={HomeDemo3Allocation} data={TokenText} />
+        <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
         <SecTeam data={TeamMember} />
         <SecPartners data={PartnersData} />
       </div>

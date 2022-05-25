@@ -95,27 +95,33 @@ export const SingleCoolFact = [
 export const service_single_content = [
     {
         img:HomeDemo3Services1,
-        title:'Smart Trading Modules'
+        title:'Private Sale',
+        text: '15% of token will be sold in Private Sale, 10% unlock on Tge locked for 6 months after linear vesting, which is 1% daily'
     },
     {
         img:HomeDemo3Services2,
-        title:'Adaptive Social Assistant'
+        title:'Public Sale',
+        text : '8% of the token will be available in public Sales, 10% Tge and linear vesting of 1 % daily'
     },
     {
         img:HomeDemo3Services3,
-        title:'Analyzer of the News '
+        title:'In-game Rewards ',
+        text : '35% of token will be available as in-game rewards for players'
     },
     {
         img:HomeDemo3Services4,
-        title:'Exchange Order Management'
+        title:'Founder Team',
+        text :'12% locked For 18 months with 4 years vesting schedule'
     },
     {
         img:HomeDemo3Services5,
-        title:'Module of Price Notification'
+        title:'Liquidity',
+        text : '10% liquidity on token'
     },
     {
         img:HomeDemo3Services6,
-        title:'Crypto Trading Platform'
+        title:'Marketing',
+        text : '20% of token Will be used for marketing As in case of necessity'
     }
 
 ]
@@ -351,19 +357,19 @@ export const DocElementTitle = [
 
 export const TokenText = [
     {
-        text:'Lorem ipsum dolor sit amet, conse ctetur elit',
+        text:'Maximum Token Suppy : 1 billion',
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'Sed quis accumsan nisi Ut ut felis',
+        text:'Minimun token Purchase price : $100 or equivalent in MTV',
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'felis congue nisl hendrerit commodo',
+        text:'Current token rate in dollar : $0.004',
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'arch nemo sequi rem saepe ad quasi ullam.',
+        text:'Token Allocated to ICO : 150 million LCH',
         img:HomeDemo3TokenIcon1
     },
 ]

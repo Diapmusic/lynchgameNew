@@ -8,9 +8,8 @@ const SecDistribution = ({img , data}) => {
         <div className="container">
             
             <SectionHeading
-                title='Our ICO Distribution'
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'
-            />
+                title='Token Distribution'
+                />
 
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <h2 className="text-center mb-30">Token Allocation</h2>
@@ -25,7 +24,7 @@ const SecDistribution = ({img , data}) => {
                     <TokenInfo
                         key={key}
                         text={item.text}
-                        img={item.img}
+                       
                     />
                 ))}
             </div>

@@ -36,13 +36,14 @@ const IcoCounter = () => {
                        <span className="pull-right">Token Hardcap</span>
                     </div>
                     <div className="text-center">
-                        <a href="#" className="button mt-30">Buy More Tokens</a>
+                        
                     </div>
                 </div>
                 
             </div>
             
         </div>
+        
     </div>
   );
 }
