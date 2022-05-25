@@ -1,4 +1,4 @@
-import {HomeDemo1Dollar} from '../../../utils/allImgs'
+
 
 import SecWelcomeContent from './SecWelcomeContent'
 
@@ -18,7 +18,7 @@ const SecWelcomeArea = () => {
             <div className="container h-100">
                 <div className="row h-100 align-items-center">
                     <div className="col-12 col-lg-6 col-md-12">
-                        <SecWelcomeContent img={HomeDemo1Dollar} />
+                        <SecWelcomeContent  />
                     </div>
                     <div className="col-12 col-lg-6 col-md-12">
                         <div className="main-ilustration"></div>

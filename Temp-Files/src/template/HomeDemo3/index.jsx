@@ -66,9 +66,9 @@ let HomeDemo3 = () => {
       <div className="HomeDemo3">
         <SecWelcomeArea />
         <SecVerticalSocial data={VerticalSocial} />
-        <SecHowItWorks data={HowItWorksInfo} imgPhone={HomeDemo3ImgPhone} />
-        <SecTrust data={SingleCoolFact} />
         <SecAboutUsClient img={HomeDemo3About1} />
+        {/*<SecHowItWorks data={HowItWorksInfo} imgPhone={HomeDemo3ImgPhone} />*/}
+        <SecTrust data={SingleCoolFact} />
         <SecAboutUs img={HomeDemo3Solution} />
         <SecDemoVideo img={HomeDemo3VideoBg4} />
         <div className="clearfix" />

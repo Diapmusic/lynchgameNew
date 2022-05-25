@@ -1,4 +1,5 @@
-import NavbarLogo from "../../assets/img/core-img/logo.png"
+
+import NavbarLogo from "../../asset/logo3.png"
 
 import FooterLogo from "../../assets/img/core-img/logo.png"
 import FooterPattern from "../../assets/img/core-img/pattern.png"
