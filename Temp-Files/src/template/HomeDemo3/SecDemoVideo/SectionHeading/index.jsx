@@ -9,9 +9,7 @@ const SectionHeading = () => {
                     <Span key={key} />
                 ))}
         </div>
-        <h2 className="wow fadeInUp" data-wow-delay="0.3s">Watch our demo video</h2>
-        <p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
-    </div>
+         </div>
   );
 }
 
