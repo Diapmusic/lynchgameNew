@@ -24,7 +24,7 @@ import HomeDemo1About1 from "../../asset/spec.png"
 
 import HomeDemo1Solution from "../../asset/vr.png"
 
-import HomeDemo1VideoBg4 from "../../assets/img/bg-img/bg-4.jpg"
+import HomeDemo1VideoBg4 from "../../asset/env2.png"
 
 import HomeDemo1Services1 from "../../assets/img/services/1.svg"
 import HomeDemo1Services2 from "../../assets/img/services/2.svg"
@@ -80,7 +80,7 @@ import HomeDemo2About1 from "../../asset/spec.png"
 
 import HomeDemo2Solution from "../../asset/vr.png"
 
-import HomeDemo2VideoBg4 from "../../assets/img/bg-img/bg-4.jpg"
+import HomeDemo2VideoBg4 from "../../asset/env2.png"
 
 import HomeDemo2Services1 from "../../assets/img/services/1.svg"
 import HomeDemo2Services2 from "../../assets/img/services/2.svg"
@@ -148,7 +148,7 @@ import HomeDemo3About1 from "../../asset/spec.png"
 
 import HomeDemo3Solution from "../../asset/vr.png"
 
-import HomeDemo3VideoBg4 from "../../assets/img/bg-img/bg-4.jpg"
+import HomeDemo3VideoBg4 from "../../asset/env2.png"
 
 import HomeDemo3Services1 from "../../assets/img/services/1.svg"
 import HomeDemo3Services2 from "../../assets/img/services/2.svg"

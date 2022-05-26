@@ -95,7 +95,7 @@ function SingleFAQArea () {
 						
 				<a  className="button mt-30" onClick={connect}>connect </a>
 
-				<a  className="button mt-31"  >disconnect</a>
+				<a  className="button mt-31" onClick={disconnect} >disconnect</a>
 			    
 				<h3 className="text-center mb-30">TOKEN SALE ENDS IN</h3>
 			</div>
