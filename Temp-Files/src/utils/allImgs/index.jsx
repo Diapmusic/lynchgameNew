@@ -1,7 +1,7 @@
 
 import NavbarLogo from "../../asset/logo3.png"
 
-import FooterLogo from "../../assets/img/core-img/logo.png"
+import FooterLogo from "../../asset/logo3.png"
 import FooterPattern from "../../assets/img/core-img/pattern.png"
 import FooterBg1 from "../../assets/img/core-img/footer-bg1.png"
 
@@ -137,7 +137,7 @@ import HomeDemo2BlogImg3 from "../../assets/img/blog-img/3.jpg"
 
 import HomeDemo3Dollar from "../../assets/img/svg/img-dollar.svg"
 
-import HomeDemo3IcoPlatforms1 from "../../asset/images/pandas.png"
+import HomeDemo3IcoPlatforms1 from "../../asset/images/pan.png"
 import HomeDemo3IcoPlatforms2 from "../../asset/images/mul.png"
 import HomeDemo3IcoPlatforms3 from "../../assets/img/ico-platforms/3.png"
 import HomeDemo3IcoPlatforms4 from "../../assets/img/ico-platforms/4.png"

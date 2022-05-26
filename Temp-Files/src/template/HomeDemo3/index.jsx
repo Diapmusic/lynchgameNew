@@ -65,19 +65,19 @@ let HomeDemo3 = () => {
       <Header />
       <div className="HomeDemo3">
         <SecWelcomeArea />
-        {/*<SecVerticalSocial data={VerticalSocial} />*/}
         <SecAboutUsClient img={HomeDemo3About1} />
-        {/*<SecHowItWorks data={HowItWorksInfo} imgPhone={HomeDemo3ImgPhone} />*/}
         <SecAboutUs img={HomeDemo3Solution} />
         <SecDemoVideo img={HomeDemo3VideoBg4} />
         <div className="clearfix" />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo3BgRoadmap} />
-        {/*<SecOurFeatures data={ServiceBlock} imgPhone={HomeDemo3ImgPhone} Rings={HomeDemo3RingsBg} />*/}
-        {/*<SecSubscribe data={SocialListIco} />*/}
         <SecOurServices data={service_single_content} />
         <SecDistribution img={HomeDemo3Allocation} data={TokenText} />
         <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
         <SecTeam data={TeamMember} />
+         {/*<SecVerticalSocial data={VerticalSocial} />*/}
+        {/*<SecHowItWorks data={HowItWorksInfo} imgPhone={HomeDemo3ImgPhone} />*/}
+        {/*<SecOurFeatures data={ServiceBlock} imgPhone={HomeDemo3ImgPhone} Rings={HomeDemo3RingsBg} />*/}
+        {/*<SecSubscribe data={SocialListIco} />*/}
         <SecTrust data={SingleCoolFact} />
         <SecPartners data={PartnersData} />
       </div>
