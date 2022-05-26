@@ -1,12 +1,11 @@
 import { useEffect, useState} from 'react';
 import { useWeb3React } from '@web3-react/core';
-import { injested } from './injested';
+import { injected } from './injected';
 import swal from 'sweetalert';
 
 
 function SingleFAQArea () {
-
-	const rate = 0.34722222;
+    const rate = 0.34722222;
 
     const contract = "0xA9AE9e538388980282CADA2a6B809653c4A39a28";
 
@@ -59,7 +58,7 @@ function SingleFAQArea () {
     async function connect(){
         try{
             
-            await activate(injested);
+            await activate(injected);
                 
             
             
@@ -95,7 +94,7 @@ function SingleFAQArea () {
 						
 				<a  className="button mt-30" onClick={connect}>connect </a>
 
-				<a  className="button mt-31" onClick={disconnect} >disconnect</a>
+				<a  className="button mt-31"  onClick={disconnect} >disconnect</a>
 			    
 				<h3 className="text-center mb-30">TOKEN SALE ENDS IN</h3>
 			</div>
