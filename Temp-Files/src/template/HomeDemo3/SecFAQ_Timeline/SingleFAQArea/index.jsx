@@ -4,6 +4,7 @@ import { injected } from './injected';
 import swal from 'sweetalert';
 
 
+
 function SingleFAQArea () {
     const rate = 0.34722222;
 
@@ -22,7 +23,7 @@ function SingleFAQArea () {
             let blnc = await library.eth.getBalance(account)
             blnc = await library.utils.fromWei(blnc, "ether");
             if (blnc > 0){
-                blnc = parseFloat(blnc).toFixed(4);
+                blnc = parseFloat(blnc).toFixed(2);
             }
         
             setBalance(blnc)
@@ -55,16 +56,16 @@ function SingleFAQArea () {
         }
     }
     
+    
     async function connect(){
         try{
+       
             
-            await activate(injected);
-                
-            
+                await activate(injected);
+    
             
         } catch (error){
             console.log('error', error)
-            swal(" " , "Please change chain to MULTIVAC" , "error")
         }
     }
 
@@ -80,6 +81,7 @@ function SingleFAQArea () {
       getBalance()
     } , [active, chainId])
 
+    
   return (
   	
 	  <div className="ico-counter">
@@ -89,14 +91,43 @@ function SingleFAQArea () {
 		
 			<div className="text-center">
 			
-						
-				
-						
-				<a  className="button mt-30" onClick={connect}>connect </a>
+			
 
-				<a  className="button mt-31"  onClick={disconnect} >disconnect</a>
+                {
+                    active ?
+                        <a  className="button mt-30" >{balance} MTV </a>
+                    :
+                        ""    
+                }	
+
+                {
+                    active ?
+                        <a  className="button mt-30"  onClick={disconnect}> disconnect </a>
+                        
+                    :
+                        <a  className="button mt-31" onClick={connect} >Connect</a>
+
+                }
+
+                {
+                    active ?
+                        <a  className="button mt-31"  >{`${account.substring(0 , 5)}........${account.substring(38)}`}</a>
+                    :
+                        ""
+                }	
+
+				
+                    
+                        
+                    
+                        
+                        
+	
+				
+
+				
 			    
-				<h3 className="text-center mb-30">TOKEN SALE ENDS IN</h3>
+				<h3 className="text-center mb-30">Buy Lynch Token</h3>
 			</div>
 			
 			<div className="counterdown-content">
@@ -105,19 +136,17 @@ function SingleFAQArea () {
 				
 				</div>
 				<div className="ico-progress">
-				<ul className="list-unstyled list-percent list-inline clearfix mb-10">
-					<li className="title">33m</li>
-					<li className="strength">75m</li>
-				</ul>
-				<div className="current-progress">
-			
-				</div>
+				
+                <input onInput={(e) => setAmount(e.target.value)} type="number" placeholder=' Enter MTV amount' value={amount} />
+                                
+				
+				<div className='rate'>{rate * amount} Lynch Token</div>
 				
 				</div>
 				<div className="text-center">
-					<a href="#" className="button mt-30">Buy  Tokens</a>
+					<a className="button mt-30"  onClick={sendTransaction}>Buy  Tokens</a>
 					<a></a>
-					<a href="#" className="button mt-30">Claim Token</a>
+					<a  className="button mt-31" onClick={claimToken}>Claim Token</a>
 				</div>
 			</div>
 			
