@@ -7,8 +7,8 @@ const SecDemoVideo = ({img}) => {
     <section className="demo-video section-before section-padding-100">
         <div className="container">
 	        <SectionHeading
-	            title='Watch our demo video'
-	            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'
+	            title='Watch our Game Updates on Youtube'
+	            text='Videos of game environment , character design and Game Testing will also be available on the channel. Updates will also be shared on all Social media channels'
 	        />
             <SecVideoArea img={img} />
         </div>

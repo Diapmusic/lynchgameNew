@@ -6,9 +6,7 @@ const SingleCoolFact = ({img , ico_check}) => {
             <div className="ico-platform-logo">
                 <img src={img} alt="" />
             </div>
-            <div className="check">
-            	{ico_check ? (<div className="check-icon"></div>) : (<div className="value">8.9</div>)}
-            </div>
+            
         </div>
     </div>
   );

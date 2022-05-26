@@ -10,7 +10,7 @@ const SecWhoWeContant = () => {
                 		<Span />
                 	))}
             </div>
-            <h4 data-aos="fade-up">Wht is Lynch Game</h4>
+            <h4 data-aos="fade-up">What is Lynch Game</h4>
             <p data-aos="fade-up">Lynch Is an action RPG, fantasy, multiplayer Game that enables players to build their team of Lynchers and compete in epic adventures to earn rewards. </p>
             <p data-aos="fade-up">Lynch is a play-to-earn and play-to-win game that enables active players to earn rewards or win and sell them to other active players. Additionally, players will have full ownership of their in-game items, which they can trade for real money. Lynch will offer a single-player that will control a team of heroes.</p>
          

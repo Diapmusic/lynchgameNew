@@ -73,22 +73,6 @@ export const SingleCoolFact = [
     {
         img:HomeDemo3IcoPlatforms2,
         ico_check:false
-    },
-    {
-        img:HomeDemo3IcoPlatforms3,
-        ico_check:true
-    },
-    {
-        img:HomeDemo3IcoPlatforms4,
-        ico_check:true
-    },
-    {
-        img:HomeDemo3IcoPlatforms5,
-        ico_check:false
-    },
-    {
-        img:HomeDemo3IcoPlatforms6,
-        ico_check:true
     }
 ]
 
@@ -157,7 +141,8 @@ export const timelineInfo = [
         TextSpan:"",
         IsTowLi:true,
         TextTowLi1:'Token and Smart Contract creation',
-        TextTowLi2:'Storyline and Basic character design ',
+        TextTowLi2:'Basic character design ',
+        TextTowLi3:' ',
         IsThreeLi:false,
         TextThreeLi1:"",
         TextThreeLi2:"",
@@ -222,7 +207,7 @@ export const timelineInfo = [
         TextTowLi1:"",
         TextTowLi2:"",
         IsThreeLi:true,
-        TextThreeLi1:"Game mechanics implementation",
+        TextThreeLi1:"Game mechanics ",
         TextThreeLi2:"Game trailer preview",
         TextThreeLi3:" Prototyping",
         IsFourLi:false,
@@ -265,14 +250,36 @@ export const timelineInfo = [
         TextTowLi2:"",
         IsThreeLi:true,
         TextThreeLi1:"Game Beta version",
-        TextThreeLi2:"Testing and Development of Game",
-        TextThreeLi3:"Dex listing and Game launch",
+        TextThreeLi2:" Testing",
+        TextThreeLi3:"Dex listing ",
         IsFourLi:false,
         TextFourLi1:"",
         TextFourLi2:"",
         TextFourLi3:"",
         TextFourLi4:"",
         img:HomeDemo3RoadmapIcons8
+
+    },
+   
+    {
+        left:"90%",
+        ClassName:"data_cir cir_8 next",
+        date:"Fourth Phase(Q4)",
+        IsSpan:false,
+        TextSpan:"",
+        IsTowLi:true,
+        TextTowLi1:"Game Launch",
+        TextTowLi2:"",
+        IsThreeLi:false,
+        TextThreeLi1:"",
+        TextThreeLi2:"",
+        TextThreeLi3:"",
+        IsFourLi:false,
+        TextFourLi1:"",
+        TextFourLi2:"",
+        TextFourLi3:"",
+        TextFourLi4:"",
+        img:HomeDemo3RoadmapIcons9
 
     },
     {
@@ -424,13 +431,7 @@ export const PartnersData = [
     {img:HomeDemo3Partners3},
     {img:HomeDemo3Partners4},
     {img:HomeDemo3Partners5},
-    {img:HomeDemo3Partners6},
-    {img:HomeDemo3Partners7},
-    {img:HomeDemo3Partners8},
-    {img:HomeDemo3Partners9},
-    {img:HomeDemo3Partners10},
-    {img:HomeDemo3Partners11},
-    {img:HomeDemo3Partners12}
+    {img:HomeDemo3Partners6}
 ]
 
 export const BlogPost = [

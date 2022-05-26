@@ -6,7 +6,7 @@ const SecPartners = ({data}) => {
     <section className="partners">
 
         <SectionHeading
-            title='Our Awesome Partners'
+            title='Powered by'
             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'
         />
 

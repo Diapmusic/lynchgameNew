@@ -1,4 +1,4 @@
-function SecWelcomeContent({img}){
+function SecWelcomeContent(){
   return(
       <div className="welcome-content">
           <div className="promo-section">

@@ -7,9 +7,8 @@ const SecTrust = ({data}) => {
     <section className="trust-section section-padding-100">
 
         <SectionHeading
-            title='We are trusted'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'
-        />
+            title='OUR PARTNERS'
+               />
 
         <div className="container">
             <div className="row">

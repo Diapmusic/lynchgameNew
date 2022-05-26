@@ -20,9 +20,9 @@ import HomeDemo1IcoPlatforms4 from "../../assets/img/ico-platforms/4.png"
 import HomeDemo1IcoPlatforms5 from "../../assets/img/ico-platforms/5.png"
 import HomeDemo1IcoPlatforms6 from "../../assets/img/ico-platforms/6.png"
 
-import HomeDemo1About1 from "../../assets/img/svg/about1.svg"
+import HomeDemo1About1 from "../../asset/spec.png"
 
-import HomeDemo1Solution from "../../assets/img/solution.png"
+import HomeDemo1Solution from "../../asset/vr.png"
 
 import HomeDemo1VideoBg4 from "../../assets/img/bg-img/bg-4.jpg"
 
@@ -36,7 +36,7 @@ import HomeDemo1Services6 from "../../assets/img/services/6.svg"
 import HomeDemo1ImgPhone from "../../assets/img/phone.png"
 import HomeDemo1RingsBg from "../../assets/img/core-img/rings-bg.png"
 
-import HomeDemo1Allocation from "../../assets/img/core-img/allocation.png"
+import HomeDemo1Allocation from "../../asset/meta.png"
 
 import HomeDemo1TokenIcon1 from "../../assets/img/svg/token-icon-1.svg"
 import HomeDemo1TokenIcon2 from "../../assets/img/svg/token-icon-2.svg"
@@ -76,9 +76,9 @@ import HomeDemo2IcoPlatforms4 from "../../assets/img/ico-platforms/4.png"
 import HomeDemo2IcoPlatforms5 from "../../assets/img/ico-platforms/5.png"
 import HomeDemo2IcoPlatforms6 from "../../assets/img/ico-platforms/6.png"
 
-import HomeDemo2About1 from "../../assets/img/svg/about1.svg"
+import HomeDemo2About1 from "../../asset/spec.png"
 
-import HomeDemo2Solution from "../../assets/img/solution.png"
+import HomeDemo2Solution from "../../asset/vr.png"
 
 import HomeDemo2VideoBg4 from "../../assets/img/bg-img/bg-4.jpg"
 
@@ -92,7 +92,7 @@ import HomeDemo2Services6 from "../../assets/img/services/6.svg"
 import HomeDemo2ImgPhone from "../../assets/img/phone.png"
 import HomeDemo2RingsBg from "../../assets/img/core-img/rings-bg.png"
 
-import HomeDemo2Allocation from "../../assets/img/core-img/allocation.png"
+import HomeDemo2Allocation from "../../asset/meta.png"
 
 import HomeDemo2BgRoadmap from "../../assets/img/bg-img/bg-roadmap.png"
 
@@ -137,16 +137,16 @@ import HomeDemo2BlogImg3 from "../../assets/img/blog-img/3.jpg"
 
 import HomeDemo3Dollar from "../../assets/img/svg/img-dollar.svg"
 
-import HomeDemo3IcoPlatforms1 from "../../assets/img/ico-platforms/1.png"
-import HomeDemo3IcoPlatforms2 from "../../assets/img/ico-platforms/2.png"
+import HomeDemo3IcoPlatforms1 from "../../asset/images/pandas.png"
+import HomeDemo3IcoPlatforms2 from "../../asset/images/mul.png"
 import HomeDemo3IcoPlatforms3 from "../../assets/img/ico-platforms/3.png"
 import HomeDemo3IcoPlatforms4 from "../../assets/img/ico-platforms/4.png"
 import HomeDemo3IcoPlatforms5 from "../../assets/img/ico-platforms/5.png"
 import HomeDemo3IcoPlatforms6 from "../../assets/img/ico-platforms/6.png"
 
-import HomeDemo3About1 from "../../assets/img/svg/about1.svg"
+import HomeDemo3About1 from "../../asset/spec.png"
 
-import HomeDemo3Solution from "../../assets/img/solution.png"
+import HomeDemo3Solution from "../../asset/vr.png"
 
 import HomeDemo3VideoBg4 from "../../assets/img/bg-img/bg-4.jpg"
 
@@ -160,7 +160,7 @@ import HomeDemo3Services6 from "../../assets/img/services/6.svg"
 import HomeDemo3ImgPhone from "../../assets/img/phone.png"
 import HomeDemo3RingsBg from "../../assets/img/core-img/rings-bg.png"
 
-import HomeDemo3Allocation from "../../assets/img/core-img/allocation.png"
+import HomeDemo3Allocation from "../../asset/meta.png"
 
 import HomeDemo3BgRoadmap from "../../assets/img/bg-img/bg-roadmap.png"
 
@@ -184,12 +184,12 @@ import HomeDemo3TeamImg2 from "../../assets/img/team-img/2.png"
 import HomeDemo3TeamImg3 from "../../assets/img/team-img/3.png"
 import HomeDemo3TeamImg4 from "../../assets/img/team-img/4.png"
 
-import HomeDemo3Partners1 from "../../assets/img/partners/1.png"
-import HomeDemo3Partners2 from "../../assets/img/partners/2.png"
-import HomeDemo3Partners3 from "../../assets/img/partners/3.png"
-import HomeDemo3Partners4 from "../../assets/img/partners/4.png"
-import HomeDemo3Partners5 from "../../assets/img/partners/5.png"
-import HomeDemo3Partners6 from "../../assets/img/partners/6.png"
+import HomeDemo3Partners1 from "../../asset/images/blender1.png"
+import HomeDemo3Partners2 from "../../asset/images/maya2e.png"
+import HomeDemo3Partners3 from "../../asset/images/multivac1.png"
+import HomeDemo3Partners4 from "../../asset/images/unreal1.png"
+import HomeDemo3Partners5 from "../../asset/images/zbrush.png"
+import HomeDemo3Partners6 from "../../asset/images/substance.png"
 import HomeDemo3Partners7 from "../../assets/img/partners/7.png"
 import HomeDemo3Partners8 from "../../assets/img/partners/8.png"
 import HomeDemo3Partners9 from "../../assets/img/partners/9.png"
