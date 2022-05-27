@@ -53,7 +53,7 @@ let HomeDemo3 = () => {
   },[])
 
   useEffect(() => {
-    if (document.title === 'Home Template3') {
+    if (document.title === 'LYNCH') {
       document.getElementsByTagName("body")[0].style.backgroundImage = 'linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240)'
     }else{
       document.getElementsByTagName("body")[0].style.backgroundImage = 'linear-gradient(to right, #4834d4, #341f97)'
