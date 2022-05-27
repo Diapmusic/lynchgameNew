@@ -630,6 +630,7 @@ ol {
 
 body.light-version {
     background: #fff !important;
+    overflow: hidden !important;
 }
 
 .light-version p {
