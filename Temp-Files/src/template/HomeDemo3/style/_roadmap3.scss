@@ -21,6 +21,7 @@
 
 #section_5-slider-circle {
     position: relative
+    
 }
 
 #section_5-slider-circle .data_cir {
@@ -262,7 +263,7 @@
         position: absolute;
         left: -webkit-calc(45vw + 8px);
         left: -moz-calc(45vw + 8px);
-        left: calc(45vw + 8px);
+        left: calc(30vw + 8px);
     }
     .section_5-content {
         position: relative;
@@ -289,7 +290,7 @@
         left: 0!important;
         margin-left: -webkit-calc(45vw + 2px);
         margin-left: -moz-calc(45vw + 2px);
-        margin-left: calc(45vw + 2px);
+        margin-left: calc(30vw + 2px);
     }
     #section_5-slider-circle .data_cir:last-child{
         margin-bottom: 0!important
@@ -314,7 +315,7 @@
     }
     #section_5-slider-circle .data_cir-content span{
         width: 100%;
-        font-size: 14px;
+        font-size: 11px;
     }
     #section_5-slider-circle .data_cir:nth-child(2n) .data_cir-content ul::before,
     #section_5-slider-circle .data_cir:nth-child(2n+1) .data_cir-content ul::before{
