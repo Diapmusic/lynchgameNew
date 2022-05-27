@@ -15,7 +15,7 @@ const IcoCounter = () => {
 
             <div className="content">
                 <div className="conuter-header">
-                    <h3 className="text-center mb-30">TOKEN STARTs IN</h3>
+                    <h3 className="text-center mb-30">TOKEN SALE STARTS IN</h3>
                 </div>
                 <div className="counterdown-content">
                     
