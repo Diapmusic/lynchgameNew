@@ -32,7 +32,7 @@
 .hero-content .ico-counter{
     margin: 100px 7% 0;
 }
-@media (max-width: 992px){
+@media screen and (max-width: 992px){
     .hero-content .ico-counter,
     .hero-content .service-img-wrapper .image-box{
         margin-top: 0px !important
@@ -123,7 +123,7 @@
     height: 100vh;
     background-size: cover;
 }
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px){
     .main-ilustration-3{
         background-size: contain;
         background-position: left;
@@ -138,7 +138,7 @@
         top: 27%;
     }
 }
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
     .main-ilustration-3{
         background-size: contain;
         background-position: left;
@@ -164,7 +164,7 @@
         margin-top: 120px !important
     }
 }
-@media (max-width: 480px){
+@media  screen and (max-width: 480px){
 
     .welcome-content {
         vertical-align: middle;
@@ -218,7 +218,7 @@
     margin-bottom: 0;
 }
 
-@media (min-width: 1200px){
+@media screen and (min-width: 1200px){
     .main-ilustration {
         min-width: 650px;
     }
@@ -340,14 +340,14 @@ p.artficial:before{
   height: 100%;
 }
 
-@media (min-aspect-ratio: 16/9) {
+@media screen and (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 300%;
     top: -100%;
   }
 }
 
-@media (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     width: 300%;
     left: -100%;
@@ -357,7 +357,7 @@ p.artficial:before{
     max-width: 60%;
     margin: 0 auto
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .fullscreen-bg {
     background: url('video/video-frame.PNG') center center / cover no-repeat;
   }

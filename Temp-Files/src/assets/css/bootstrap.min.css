@@ -594,25 +594,25 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .container {
         max-width: 540px
     }
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .container {
         max-width: 720px
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .container {
         max-width: 960px
     }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .container {
         max-width: 1140px
     }
@@ -929,7 +929,7 @@ pre code {
     margin-left: 91.666667%
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .col-sm {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1101,7 +1101,7 @@ pre code {
     }
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .col-md {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1273,7 +1273,7 @@ pre code {
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .col-lg {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1445,7 +1445,7 @@ pre code {
     }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .col-xl {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1848,7 +1848,7 @@ pre code {
     background-color: rgba(255, 255, 255, .075)
 }
 
-@media (max-width:575.98px) {
+@media screen and (max-width:575.98px) {
     .table-responsive-sm {
         display: block;
         width: 100%;
@@ -1861,7 +1861,7 @@ pre code {
     }
 }
 
-@media (max-width:767.98px) {
+@media screen and (max-width:767.98px) {
     .table-responsive-md {
         display: block;
         width: 100%;
@@ -1874,7 +1874,7 @@ pre code {
     }
 }
 
-@media (max-width:991.98px) {
+@media screen and  (max-width:991.98px) {
     .table-responsive-lg {
         display: block;
         width: 100%;
@@ -1887,7 +1887,7 @@ pre code {
     }
 }
 
-@media (max-width:1199.98px) {
+@media screen and (max-width:1199.98px) {
     .table-responsive-xl {
         display: block;
         width: 100%;
@@ -2377,7 +2377,7 @@ select.form-control-lg:not([size]):not([multiple]) {
     width: 100%
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .form-inline label {
         display: -ms-flexbox;
         display: flex;
@@ -4235,7 +4235,7 @@ input[type=submit].btn-block {
     background-size: 100% 100%
 }
 
-@media (max-width:575.98px) {
+@media screen and (max-width:575.98px) {
     .navbar-expand-sm>.container,
     .navbar-expand-sm>.container-fluid {
         padding-right: 0;
@@ -4243,7 +4243,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .navbar-expand-sm {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
@@ -4277,7 +4277,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (max-width:767.98px) {
+@media screen and (max-width:767.98px) {
     .navbar-expand-md>.container,
     .navbar-expand-md>.container-fluid {
         padding-right: 0;
@@ -4285,7 +4285,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .navbar-expand-md {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
@@ -4319,7 +4319,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (max-width:991.98px) {
+@media screen and (max-width:991.98px) {
     .navbar-expand-lg>.container,
     .navbar-expand-lg>.container-fluid {
         padding-right: 0;
@@ -4327,7 +4327,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .navbar-expand-lg {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
@@ -4361,7 +4361,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (max-width:1199.98px) {
+@media screen and (max-width:1199.98px) {
     .navbar-expand-xl>.container,
     .navbar-expand-xl>.container-fluid {
         padding-right: 0;
@@ -4369,7 +4369,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .navbar-expand-xl {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
@@ -4679,7 +4679,7 @@ input[type=submit].btn-block {
     margin-bottom: 15px
 }
 
-@media (min-width:576px) {
+@media  screen and (min-width:576px) {
     .card-deck {
         -ms-flex-flow: row wrap;
         flex-flow: row wrap;
@@ -4710,7 +4710,7 @@ input[type=submit].btn-block {
     margin-bottom: 15px
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .card-group {
         -ms-flex-flow: row wrap;
         flex-flow: row wrap
@@ -4776,7 +4776,7 @@ input[type=submit].btn-block {
     margin-bottom: .75rem
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .card-columns {
         -webkit-column-count: 3;
         -moz-column-count: 3;
@@ -5073,7 +5073,7 @@ input[type=submit].btn-block {
     border-radius: .3rem
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .jumbotron {
         padding: 4rem 2rem
     }
@@ -5684,7 +5684,7 @@ button.close {
     overflow: scroll
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .modal-dialog {
         max-width: 500px;
         margin: 1.75rem auto
@@ -5697,7 +5697,7 @@ button.close {
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .modal-lg {
         max-width: 800px
     }
@@ -6536,7 +6536,7 @@ button.bg-dark:hover {
     display: inline-flex!important
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .d-sm-none {
         display: none!important
     }
@@ -6568,7 +6568,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:768px) {
+@media  screen and (min-width:768px) {
     .d-md-none {
         display: none!important
     }
@@ -6600,7 +6600,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .d-lg-none {
         display: none!important
     }
@@ -6632,7 +6632,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .d-xl-none {
         display: none!important
     }
@@ -6909,7 +6909,7 @@ button.bg-dark:hover {
     align-self: stretch!important
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .flex-sm-row {
         -ms-flex-direction: row!important;
         flex-direction: row!important
@@ -7048,7 +7048,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .flex-md-row {
         -ms-flex-direction: row!important;
         flex-direction: row!important
@@ -7187,7 +7187,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .flex-lg-row {
         -ms-flex-direction: row!important;
         flex-direction: row!important
@@ -7326,7 +7326,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .flex-xl-row {
         -ms-flex-direction: row!important;
         flex-direction: row!important
@@ -7477,7 +7477,7 @@ button.bg-dark:hover {
     float: none!important
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .float-sm-left {
         float: left!important
     }
@@ -7489,7 +7489,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .float-md-left {
         float: left!important
     }
@@ -7501,7 +7501,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:992px) {
+@media  screen and (min-width:992px) {
     .float-lg-left {
         float: left!important
     }
@@ -7513,7 +7513,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .float-xl-left {
         float: left!important
     }
@@ -7968,7 +7968,7 @@ button.bg-dark:hover {
     margin-left: auto!important
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .m-sm-0 {
         margin: 0!important
     }
@@ -8218,7 +8218,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .m-md-0 {
         margin: 0!important
     }
@@ -8468,7 +8468,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .m-lg-0 {
         margin: 0!important
     }
@@ -8718,7 +8718,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .m-xl-0 {
         margin: 0!important
     }
@@ -8998,7 +8998,7 @@ button.bg-dark:hover {
     text-align: center!important
 }
 
-@media (min-width:576px) {
+@media screen and (min-width:576px) {
     .text-sm-left {
         text-align: left!important
     }
@@ -9010,7 +9010,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .text-md-left {
         text-align: left!important
     }
@@ -9022,7 +9022,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .text-lg-left {
         text-align: left!important
     }
@@ -9034,7 +9034,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width:1200px) {
+@media  screen and (min-width:1200px) {
     .text-xl-left {
         text-align: left!important
     }
@@ -9270,7 +9270,7 @@ a.text-dark:hover {
   max-width: 100%;
   height: auto;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
@@ -9428,7 +9428,7 @@ a.text-dark:hover {
     margin-left: 0;
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
@@ -9586,7 +9586,7 @@ a.text-dark:hover {
     margin-left: 0;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }

@@ -55,7 +55,7 @@
     margin-bottom: 15px;
     color: #ffffff;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .HomeDemo3 .count-down .tab-metr{
         font-size: 14px
     }

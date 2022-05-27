@@ -90,7 +90,7 @@
     width: 100%;
     line-height: 20px
 }
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px){
     #section_5-slider-circle .data_cir-content span{
         width: 94%;
         font-size: 11px
@@ -253,7 +253,7 @@
     -moz-box-shadow: 0 0 6px 2px #00e4ff;
     box-shadow: 0 0 6px 2px #00e4ff
 }
-@media (max-width: 992px){
+@media screen and (max-width: 992px){
     .section_5-slider-trumb {
         width: 4px;
         height: -webkit-calc(100% - 4px);

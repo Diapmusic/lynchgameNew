@@ -9,7 +9,7 @@
 .demo-video .welcome-video-area{
     margin-top: 0
 }
-@media (max-width: 992px){
+@media screen and (max-width: 992px){
     .vertical-social{
         display: none !important;
     }
@@ -58,7 +58,7 @@
     background: #fff;
     margin-bottom: 30px
 }
-@media (min-width: 1200px){
+@media screen and (min-width: 1200px){
     .demo .container {
         max-width: 1280px;
     }

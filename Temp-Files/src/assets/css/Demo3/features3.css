@@ -44,7 +44,7 @@
 .service-img-wrapper .image-box{
     position: relative;
 }
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px){
     .service-img-wrapper .image-box .rings{
         left: 3% !important;
     }
@@ -52,7 +52,7 @@
         margin-top: 0 !important
     }
 }
-@media (max-width: 992px){
+@media screen and (max-width: 992px){
     .service-img-wrapper .image-box{
         margin-top: 30px !important
     }
@@ -132,7 +132,7 @@
     background: #291674
 }
 
-@media (max-width: 992px){
+@media screen and (max-width: 992px){
     .service-img-wrapper.how .image-box img{
         width: 100%;
         margin-bottom: 50px
@@ -201,17 +201,17 @@
     animation: floating2 7s infinite;
     -webkit-animation: floating2 7s infinite;
 }
-@media (min-width: 992px){
+@media  screen and (min-width: 992px){
     .service-img-wrapper .image-box{
         margin-top: -30px;
     }
 }
-@media (max-width: 992px){
+@media screen and (max-width: 992px){
     .service-img-wrapper .image-box img{
         width: 79%;
     }
 }
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
     .services-block-four{
         margin-bottom: 40px
     }
