@@ -116,6 +116,10 @@ import HomeDemo2TeamImg2 from "../../assets/img/team-img/2.png"
 import HomeDemo2TeamImg3 from "../../assets/img/team-img/3.png"
 import HomeDemo2TeamImg4 from "../../assets/img/team-img/4.png"
 
+import azc from "../../asset/images/azc1.png"
+import digi from "../../asset/images/digi.png"
+import daily from "../../asset/images/daily.png"
+
 import HomeDemo2Partners1 from "../../assets/img/partners/1.png"
 import HomeDemo2Partners2 from "../../assets/img/partners/2.png"
 import HomeDemo2Partners3 from "../../assets/img/partners/3.png"
@@ -256,6 +260,10 @@ export {
 	HomeDemo1BlogImg1,
 	HomeDemo1BlogImg2,
 	HomeDemo1BlogImg3,
+
+	azc,
+	digi,
+	daily,
 
 
 	HomeDemo2Dollar,

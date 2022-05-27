@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
 const SecIco = ({logo}) => {
 	return(
         <div className="col-12 col-md-5">
@@ -15,7 +14,7 @@ const SecIco = ({logo}) => {
            \
               <a href="https://twitter.com/game_lynch"> <i className="fa fa-twitter" aria-hidden="true" /></a>
              
-              <a href="https://discord.gg/xAq9HZ55b5"><i className="fa-brands fa-discord" aria-hidden="true" /></a>
+              <a href="https://discord.gg/xAq9HZ55b5"><i className="fa fa-" aria-hidden="true" /></a>
               <a href="t.me/LynchOfficial"><i className="fa fa-telegram" aria-hidden="true" /></a>
             </div>
           </div>

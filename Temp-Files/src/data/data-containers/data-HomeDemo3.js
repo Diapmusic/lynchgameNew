@@ -45,7 +45,10 @@ import {
 
     HomeDemo3BlogImg1,
     HomeDemo3BlogImg2,
-    HomeDemo3BlogImg3
+    HomeDemo3BlogImg3,
+    azc,
+    daily,
+    digi
 
 } from '../../utils/allImgs'
 
@@ -60,7 +63,7 @@ export const VerticalSocial = [
 ]
 
 export const HowItWorksInfo = [
-    {step:1 , title:"Powerfull Mobile and Online App"},
+    {step:1 , title:"Powerfull Mobile and Online App" },
     {step:2 , title:"Brings more Transparency and Speed"},
     {step:3 , title:"Special for Multiple Use Capabilities"}
 ]
@@ -285,15 +288,18 @@ export const timelineInfo = [
 export const ServiceBlock = [
     {
         classIco:"icon ti-mobile",
-        title:"Powerfull Mobile and Online App"
+        title:"Powerfull Mobile and Online App",
+      
     },
     {
         classIco:"icon ti-widget",
-        title:"Brings more Transparency and Speed"
+        title:"Brings more Transparency and Speed",
+       
     },
     {
         classIco:"icon ti-settings",
-        title:"Special for Multiple Use Capabilities"
+        title:"Special for Multiple Use Capabilities",
+       
     },
 ]
 
@@ -326,17 +332,9 @@ export const FQAInfo = [
 
 export const DocElementTitle = [
     {
-        title:'WhitePaper'
+        title:'Metamask Wallet is recommended'
     },
-    {
-        title:'OnePager'
-    },
-    {
-        title:'Rating Review'
-    },
-    {
-        title:'Marketing Plan'
-    },
+   
 ]
 
 export const TokenText = [

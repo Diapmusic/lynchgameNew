@@ -1,7 +1,7 @@
 import SectionHeading from '../../../components/SectionHeading'
 import ServiceBlock from './ServiceBlock'
 
-const SecOurFeatures = ({data , imgPhone , Rings}) => {
+const SecOurFeatures = ({data , imgPhone , Rings }) => {
 
   return (
     <section className="features section-padding-100">
@@ -18,6 +18,8 @@ const SecOurFeatures = ({data , imgPhone , Rings}) => {
                             key={key}
                             classIco={item.classIco}
                             title={item.title}
+                            
+                            
                         />
                     ))}
                 </div>

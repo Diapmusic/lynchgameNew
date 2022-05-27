@@ -49,7 +49,7 @@ import SecPartners from './SecPartners'
 let HomeDemo3 = () => {
 
   useEffect(() => {
-    handelTitle('Home Template3')
+    handelTitle('LYNCH ')
   },[])
 
   useEffect(() => {

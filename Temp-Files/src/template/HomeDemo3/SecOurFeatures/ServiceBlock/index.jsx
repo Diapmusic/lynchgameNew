@@ -1,4 +1,20 @@
-const ServiceBlock = ({classIco , title}) => {
+import ab from "../../../../asset/images/azc1.png";
+import ac from "../../../../asset/images/daily.png";
+import ad from "../../../../asset/images/digi.png";
+
+const featuresData = [
+  {
+    ng : ab
+  },
+  {
+    ng : ac
+  },
+  {
+    ng : ad
+  },
+  
+];
+const ServiceBlock = ({classIco , title, ng}) => {
 
   return (
     <div className="services-block-four">
@@ -7,7 +23,10 @@ const ServiceBlock = ({classIco , title}) => {
                 <span className={classIco}></span>
             </div>
             <h3><a href="#">{title}</a></h3>
-            <div className="text">.</div>
+            {featuresData.map((item, index) => (
+          <Feature title={item.title} text={item.text} key={item.title + index} />
+          ))}
+            <div className="text">{ng}</div>
         </div>
     </div>
   );
