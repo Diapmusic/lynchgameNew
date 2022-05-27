@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom";
+
 import App from './App';
 import Web3 from 'web3';
 import reportWebVitals from './reportWebVitals';
@@ -14,9 +14,9 @@ function getLibrary(provider){
 ReactDOM.render(
 	<React.StrictMode>	
 		<Web3ReactProvider getLibrary={getLibrary}>
-			<BrowserRouter>
+			
 				<App />
-			</BrowserRouter>
+			
 		</Web3ReactProvider>
 	</React.StrictMode>,
   document.getElementById('root')
