@@ -51,7 +51,7 @@ let HomeDemo3 = () => {
 
   return (
     <>
-      <Header />
+      
       <div className="HomeDemo3">
         <SecWelcomeArea />
         <SecAboutUsClient img={HomeDemo3About1} />

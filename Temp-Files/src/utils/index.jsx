@@ -34,7 +34,7 @@ const OpenMenu = () => {
     }else{
       ClassyMenu.classList.remove("menu-on");
     }
-}
+} 
 
 const moveSmooth = () => {
   window.scrollTo({
