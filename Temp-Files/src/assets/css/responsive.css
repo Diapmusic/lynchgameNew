@@ -80,6 +80,7 @@
     }
     .classy-navbar {
         height: 60px;
+        max-width: 100%;
     }
     .who-we-contant h4 {
         font-size: 24px;

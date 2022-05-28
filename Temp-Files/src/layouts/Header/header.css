@@ -29,6 +29,7 @@
 .classy-navbar {
     height: 90px;
     padding: 0;
+    max-width: 100%;
 }
 
 .classynav ul li a {
