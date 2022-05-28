@@ -49,14 +49,16 @@ import SecPartners from './SecPartners'
 let HomeDemo3 = () => {
 
 
+
   return (
     <>
-      
+      <Header />
       <div className="HomeDemo3">
         <SecWelcomeArea />
         <SecAboutUsClient img={HomeDemo3About1} />
         <SecAboutUs img={HomeDemo3Solution} />
         <SecDemoVideo img={HomeDemo3VideoBg4} />
+        <div className="clearfix" />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo3BgRoadmap} />
         <SecOurServices data={service_single_content} />
         <SecDistribution img={HomeDemo3Allocation} data={TokenText} />
@@ -68,9 +70,8 @@ let HomeDemo3 = () => {
         {/*<SecSubscribe data={SocialListIco} />*/}
         <SecTrust data={SingleCoolFact} />
         <SecPartners data={PartnersData} />
-        <Footer />
       </div>
-     
+      <Footer />
     </>
   );
 };
