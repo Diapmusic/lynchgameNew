@@ -8,7 +8,7 @@ const SecPartners = ({data}) => {
     <section className="partners">
 
         <SectionHeading
-            title='Powered By'
+            title='Our Partners'
                />
 
         <div className="container flexd">

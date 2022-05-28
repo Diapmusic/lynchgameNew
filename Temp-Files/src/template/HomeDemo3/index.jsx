@@ -52,7 +52,7 @@ let HomeDemo3 = () => {
   return (
     <>
       
-      
+      <div className="HomeDemo3">
         <SecWelcomeArea />
         <SecAboutUsClient img={HomeDemo3About1} />
         <SecAboutUs img={HomeDemo3Solution} />
@@ -69,6 +69,8 @@ let HomeDemo3 = () => {
         <SecTrust data={SingleCoolFact} />
         <SecPartners data={PartnersData} />
         <Footer />
+      </div>
+     
     </>
   );
 };
