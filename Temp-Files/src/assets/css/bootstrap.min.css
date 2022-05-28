@@ -78,7 +78,6 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
-    overflow: hidden !important;
 }
 
 [tabindex="-1"]:focus {
