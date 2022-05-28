@@ -60,7 +60,7 @@
 }
 @media screen and (min-width: 1200px){
     .demo .container {
-        max-width: 1280px;
+        max-width: 100%;
     }
 }
 .demo-item:hover{
