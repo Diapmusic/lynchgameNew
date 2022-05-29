@@ -6,7 +6,7 @@ import IcoDocs from './IcoDocs'
 const SecFAQ_Timeline = ({FQAInfo , DocElementTitle}) => {
 
   return (
-    <section className="faq-timeline-area section-padding-100" id='contact'>
+    <section className="faq-timeline-area section-padding-100" id='presale'>
         <div className="container">
             <div className="row">
                 <div className="col-12 col-lg-5 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1 mt-5">

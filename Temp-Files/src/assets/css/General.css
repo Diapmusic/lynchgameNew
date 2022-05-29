@@ -479,7 +479,7 @@ ol {
 .section-heading {
     position: relative;
     z-index: 1;
-    margin-bottom: 80px;
+    margin-bottom: 1px;
 }
 
 .section-heading h2 {

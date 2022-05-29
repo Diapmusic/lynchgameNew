@@ -1,4 +1,10 @@
+import {useEffect} from 'react';
+
 function SecWelcomeContent(){
+
+   
+
+
   return(
       <div className="welcome-content">
           <div className="promo-section">
@@ -13,7 +19,11 @@ function SecWelcomeContent(){
           
           <div className="dream-btn-group">
               <a href="https://github.com/Diapmusic/lynchgame/raw/master/src/assets/LynchWhitepaper.pdf" className="btn dream-btn mr-3">Whitepaper</a>
-              <a href="#presale" className="btn dream-btn mr-3 token">Buy  Lynch Token</a>
+              <a  className="btn dream-btn mr-3 token" href='#presale'>Buy  Lynch Token</a>
+             
+
+
+             
               
           </div>
       </div>

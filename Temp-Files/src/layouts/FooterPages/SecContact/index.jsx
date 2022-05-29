@@ -3,7 +3,7 @@ import Form from './Form'
 
 const SecContact = () => {
     return (
-        <div className="contact_us_area" id="contact">
+        <div className="contact_us_area" id="presale">
           <div className="container">
             <div className="row">
               <div className="col-12">

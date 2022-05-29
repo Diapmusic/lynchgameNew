@@ -12,7 +12,7 @@ export const MenuInfo = [
 		nameLink:'About'
 	},
 	{
-		path:"#services",
+		path:"#tokenomics",
 		nameLink:'Tokenomics'
 	},
 	{
@@ -24,7 +24,7 @@ export const MenuInfo = [
 		nameLink:'Team'
 	},
 	{
-		path:"#contact",
+		path:"#presale",
 		nameLink:'Presale'
 	}
 ]

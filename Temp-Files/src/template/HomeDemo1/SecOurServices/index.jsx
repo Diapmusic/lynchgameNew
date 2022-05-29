@@ -4,7 +4,7 @@ import Content from './Content'
 const SecOurServices = ({data}) => {
 
   return (
-    <section className="our_services_area section-padding-100-70 clearfix" id="services">
+    <section className="our_services_area section-padding-100-70 clearfix" id="tokenomics">
         <div className="container">
             
             <SectionHeading

@@ -1,8 +1,8 @@
 const DocElement = ({title}) => {
 
   return (
-    <div className="col-md-6 col-sm-6 col-xs-12" data-aos="fade-up" id='presale'>
-        <div className="doc-element">
+    <div className="col-md-6 col-sm-6 col-xs-12" data-aos="fade-up" >
+        <div className="doc-element" id='presale.'>
         {title}
         </div>
     </div>

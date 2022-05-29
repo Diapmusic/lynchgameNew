@@ -48,10 +48,10 @@ const Header = () => {
                   <ul id="nav">
                     <li><a onClick={moveSmooth} href="#home">Home</a></li>
                     <li><a onClick={moveSmooth} href="#about">About</a></li>
-                    <li><a onClick={moveSmooth} href="#services">Tokenomics</a></li>
+                    <li><a onClick={moveSmooth} href="#tokenomics">Tokenomics</a></li>
                     <li><a onClick={moveSmooth} href="#roadmap">Roadmap</a></li>
                     <li><a onClick={moveSmooth} href="#team">Team</a></li>
-                    <li><a onClick={moveSmooth} href="#contact">Presale</a></li>
+                    <li><a onClick={moveSmooth} href="#presale">Presale</a></li>
                   </ul>
                 </div>
               </div>
