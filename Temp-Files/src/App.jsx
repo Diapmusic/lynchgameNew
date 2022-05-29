@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     
-    	<div className="App">
+    	<div className="">
   			<HomeDemo3/>
 	    </div>    
   );
