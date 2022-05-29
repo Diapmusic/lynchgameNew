@@ -4,9 +4,6 @@ import { Helmet } from "react-helmet";
 
 function PreloaderContainer(){
 
-	useEffect(() => {
-		loader()
-	},[])
 
 	return(
 		<>
