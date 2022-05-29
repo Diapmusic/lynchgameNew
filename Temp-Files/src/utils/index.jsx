@@ -42,7 +42,7 @@ const moveSmooth = () => {
   });
 };
 
-function loader() {
+{/*function loader() {
     let fadeTarget = document.getElementById("preloader");
 
     function fadeOutEffect() {
@@ -58,7 +58,7 @@ function loader() {
     }
 
     window.onload = setTimeout(fadeOutEffect , 1000)
-}
+}*/}
 
 export {
     handelTitle,
@@ -66,5 +66,7 @@ export {
     addActiveClass,
     OpenMenu,
     moveSmooth,
-    loader
+    
 };
+
+//loader to be in import if to be used again

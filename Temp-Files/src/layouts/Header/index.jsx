@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <>
-      <Preloader />
+      {/*<Preloader />*/}
       <header className="header-area wow fadeInDown" data-wow-delay="0.2s">
         <div className="classy-nav-container breakpoint-off">
           <div className="container">
