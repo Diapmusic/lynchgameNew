@@ -14,12 +14,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 const App = () => {
 
-  useEffect(() => {
 
-    Aos.init({
-      duration: 1000
-      })
-  },[])
 
   return (
     
