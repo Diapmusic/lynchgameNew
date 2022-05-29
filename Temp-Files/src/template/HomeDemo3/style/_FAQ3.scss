@@ -125,12 +125,13 @@
 
 .HomeDemo3 .ico-progress input {
     color: #370779;
-    font-size: 12px;
-    font-weight: 100;
+    font-size: 10px;
+    font-weight: 600;
     padding-top: 7px;
     border-radius: 10px;
     display: inline-block;
     margin-left: 11.5vw;
+    
 }
 .HomeDemo3 .ico-progress .rate {
     color: #370779;
@@ -252,4 +253,10 @@
 
 .HomeDemo3 .our-mission-content h6{
     color: #fff;   
+}
+
+@media screen and (max-width: 400px) {
+    .buy{
+        margin-right: auto;
+    }
 }

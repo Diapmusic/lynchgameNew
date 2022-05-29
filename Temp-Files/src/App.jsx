@@ -1,6 +1,7 @@
 import React , {useEffect} from "react";
 import {Helmet} from "react-helmet";
-import Aos from 'aos'
+import Aos from 'aos';
+import "./App.css"
 
 import HomeDemo3 from './template/HomeDemo3'
 

@@ -135,7 +135,7 @@ function SingleFAQArea () {
 				<div className="count-down titled circled text-center">
 				
 				</div>
-				<div className="ico-progress">
+				<div className="ico-progress buy">
 				
                 <input onInput={(e) => setAmount(e.target.value)} type="number" placeholder=' Enter MTV amount' value={amount} />
                                 

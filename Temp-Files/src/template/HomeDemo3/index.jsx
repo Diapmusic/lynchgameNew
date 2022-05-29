@@ -1,6 +1,5 @@
 import {useEffect}  from "react";
-import './style/HomeDemo3.scss';
-
+import './style/HomeDemo3.scss'
 
 import {
           VerticalSocial,
@@ -48,9 +47,6 @@ import SecTeam from './SecTeam'
 import SecPartners from './SecPartners'
 
 let HomeDemo3 = () => {
-
-
-
 
 
 
