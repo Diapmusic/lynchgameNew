@@ -1,5 +1,6 @@
 import {useEffect}  from "react";
-import './style/HomeDemo1.scss'
+import './style/HomeDemo1.scss';
+
 
 import {
           VerticalSocial,
