@@ -13,7 +13,7 @@ function SecWelcomeContent(){
           
           <div className="dream-btn-group">
               <a href="https://github.com/Diapmusic/lynchgame/raw/master/src/assets/LynchWhitepaper.pdf" className="btn dream-btn mr-3">Whitepaper</a>
-              <a href="#contact" className="btn dream-btn mr-3 token">Buy Token</a>
+              <a href="#presale" className="btn dream-btn mr-3 token">Buy  Lynch Token</a>
               
           </div>
       </div>

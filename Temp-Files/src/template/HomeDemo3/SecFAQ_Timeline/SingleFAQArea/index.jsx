@@ -84,7 +84,7 @@ function SingleFAQArea () {
     
   return (
   	
-	  <div className="ico-counter">
+	  <div className="ico-counter" >
 	     <div className="counter-down">
 
 		<div className="content">
