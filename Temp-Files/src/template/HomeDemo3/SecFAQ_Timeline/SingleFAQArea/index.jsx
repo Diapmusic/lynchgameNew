@@ -2,6 +2,8 @@ import { useEffect, useState} from 'react';
 import { useWeb3React } from '@web3-react/core';
 import { injected } from './injected';
 import swal from 'sweetalert';
+import Web3 from 'web3';
+
 
 
 
@@ -16,7 +18,9 @@ function SingleFAQArea () {
 
     const [balance, setBalance]  = useState(0);
 
-    const [amount , setAmount] = useState('')
+    const [amount , setAmount] = useState('');
+
+    
 
     async function  getBalance(){
         try {
@@ -48,27 +52,46 @@ function SingleFAQArea () {
 
             let valueTosend = await library.utils.toWei(amount , "ether");
 
-            await library.eth.sendTransaction({from: account, to: contract, value: valueTosend});
+            await library.eth.sendTransaction({from: account, to: address, value: valueTosend});
+
+            swal("", "Transaction Successful", "success")
 
         } catch(error){
             console.log(error)
         }
     }
     
-    
     async function connect(){
         try{    
             await activate(injected);
         } catch (error){
             console.log('error', error)
+            
+        }
+    }
+
+    async function loadWeb3() {
+        if(window.ethereum){
+            window.web3 = new Web3(window.ethereum)
+            await activate(injected);
+            
+        
+        } else if (chainId === 62621){
+
+        }
+        else {
+            swal("", "Please Install Metamask", )
         }
     }
 
     async function disconnect(){
         try{
-            await deactivate();
+            await web3.clearCac
+            deactivate();
+            localStorage.removeItem("account");
         } catch (error){
             console.log('error', error)
+            
         }
     }
 
@@ -100,7 +123,7 @@ function SingleFAQArea () {
                         <a  className="button mt-30"  onClick={disconnect}> disconnect </a>
                         
                     :
-                        <a  className="button mt-31" onClick={connect} >Connect</a>
+                        <a  className="button mt-31" onClick={loadWeb3} >Connect</a>
 
                 }
 
