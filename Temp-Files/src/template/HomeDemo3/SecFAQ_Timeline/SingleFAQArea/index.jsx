@@ -31,7 +31,6 @@ function SingleFAQArea () {
             console.log(error)
         }
     }
-
     async function claimToken (){
         try{
             swal("", "Token can only be claimed after lock  time and vesting period", " error")
@@ -58,12 +57,8 @@ function SingleFAQArea () {
     
     
     async function connect(){
-        try{
-       
-            
-                await activate(injected);
-    
-            
+        try{    
+            await activate(injected);
         } catch (error){
             console.log('error', error)
         }

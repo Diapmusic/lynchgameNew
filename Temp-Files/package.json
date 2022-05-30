@@ -28,7 +28,8 @@
     "sass": "^1.42.0",
     "sweetalert": "^2.1.2",
     "web-vitals": "^1.0.1",
-    "web3": "^1.7.3"
+    "web3": "^1.7.3",
+    "web3-react": "^5.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -58,4 +59,3 @@
     "gh-pages": "^3.1.0"
   }
 }
- 
