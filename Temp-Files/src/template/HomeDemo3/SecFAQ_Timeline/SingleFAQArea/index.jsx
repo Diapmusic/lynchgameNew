@@ -8,13 +8,13 @@ import Web3 from 'web3';
 
 
 function SingleFAQArea () {
-    const rate = 0.34722222;
+    const rate = 0.2777777777777778;
 
     const contract = "0xA9AE9e538388980282CADA2a6B809653c4A39a28";
 
     const address = "0x1632710e70A93403eB1a09eA8e6eCcCB3955e160";
 
-    const {active, account, library, connector, activate, deactivate, chainId } = useWeb3React();
+    const {active, account, library, connector, activate, deactivate, chainId , currentProvider } = useWeb3React();
 
     const [balance, setBalance]  = useState(0);
 
@@ -37,7 +37,7 @@ function SingleFAQArea () {
     }
     async function claimToken (){
         try{
-            swal("", "Token can only be claimed after lock  time and vesting period", " error")
+            swal("", "Token can only be claimed after lock  time and vesting period", " failed")
         }catch (error) {
             console.log(error)
         }
@@ -45,14 +45,16 @@ function SingleFAQArea () {
 
     async function sendTransaction (){
         try{
-            if(amount <= 72000 ) {
-                swal("", "Value should be more than 72000 MTV or 25000 LCH " , "error");
+            if(amount <= 90000 ) {
+                swal("", "Value should be more than 90000 MTV or 25000 LCH " , "error");
                 return;
             }
 
             let valueTosend = await library.utils.toWei(amount , "ether");
 
             await library.eth.sendTransaction({from: account, to: address, value: valueTosend});
+
+            
 
             swal("", "Transaction Successful", "success")
 
@@ -71,14 +73,27 @@ function SingleFAQArea () {
     }
 
     async function loadWeb3() {
+        swal("" , " If connected and account details are not displayed please change chain to MULTIVAC", "info")
         if(window.ethereum){
-            window.web3 = new Web3(window.ethereum)
-            await activate(injected);
+            try{    
+                window.web3 = new Web3(window.ethereum)
+                await activate(injected);
+                
+               
+                localStorage.setItem('isWalletConnected', true)
+            } catch (error){
+                console.log('error', error)
+                
+            }
+            
+            
             
         
-        } else if (chainId === 62621){
-
+        } else if (window.web3) {
+            window.web3 = new Web3(window.web3.currentProvider);
+            
         }
+        
         else {
             swal("", "Please Install Metamask", )
         }
@@ -86,18 +101,37 @@ function SingleFAQArea () {
 
     async function disconnect(){
         try{
-            await web3.clearCac
-            deactivate();
-            localStorage.removeItem("account");
+           swal("","Disconnecting", "info")
+             deactivate();
+            swal('',"Disconnected", "success")
+            localStorage.setItem('isWalletConnected', false)
+            
         } catch (error){
             console.log('error', error)
             
         }
+
+
     }
 
     useEffect(() => {
+        const connectWalletOnPageLoad = async () => {
+          if (localStorage?.getItem('isWalletConnected') === 'true') {
+            try {
+              await activate(injected)
+              localStorage.setItem('isWalletConnected', true)
+            } catch (ex) {
+              console.log(ex)
+            }
+          }
+        }
+        connectWalletOnPageLoad()
+        getBalance()
+      }, [active, chainId])
+
+    {/*useEffect(() => {
       getBalance()
-    } , [active, chainId])
+    } , [active, chainId])*/}
 
     
   return (
@@ -151,6 +185,8 @@ function SingleFAQArea () {
 			<div className="counterdown-content">
 			
 				<div className="count-down titled circled text-center">
+
+                    <h6>Current Token price: $0.004</h6>
 				
 				</div>
 				<div className="ico-progress buy">

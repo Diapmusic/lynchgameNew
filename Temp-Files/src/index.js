@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import  MetamaskProvider from '../src/template/HomeDemo3/SecFAQ_Timeline/SingleFAQArea/metamask';
 import App from './App';
 import Web3 from 'web3';
 import reportWebVitals from './reportWebVitals';
@@ -14,7 +14,7 @@ function getLibrary(provider){
 ReactDOM.render(
 	<React.StrictMode>	
 		<Web3ReactProvider getLibrary={getLibrary}>
-			
+		
 				<App />
 			
 		</Web3ReactProvider>

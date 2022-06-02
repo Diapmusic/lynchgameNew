@@ -347,11 +347,15 @@ export const TokenText = [
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'Current token rate in dollar : $0.004',
+        text:'Current ICO token rate in dollar : $0.004 with a 5% weekly Increase',
         img:HomeDemo3TokenIcon1
     },
     {
         text:'Token Allocated to ICO : 150 million LCH',
+        img:HomeDemo3TokenIcon1
+    },
+    {
+        text:'Token purchased in the ICO will be displayed on the Token Sale page for each buyer after ICO has Ended',
         img:HomeDemo3TokenIcon1
     },
 ]
