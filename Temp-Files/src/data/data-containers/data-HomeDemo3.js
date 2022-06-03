@@ -83,7 +83,7 @@ export const service_single_content = [
     {
         img:HomeDemo3Services1,
         title:'Private Sale',
-        text: '15% of token will be sold in Private Sale, 10% unlock on Tge locked for 6 months after linear vesting, which is 1% daily'
+        text: '15% of token will be sold in Private Sale, 10% unlock on Tge locked for 6 months '
     },
     {
         img:HomeDemo3Services2,
