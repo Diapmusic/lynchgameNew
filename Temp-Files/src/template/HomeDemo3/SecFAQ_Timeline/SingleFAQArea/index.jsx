@@ -8,7 +8,7 @@ import Web3 from 'web3';
 
 
 function SingleFAQArea () {
-    const rate = 0.2777777777777778;
+    const rate = 0.27777777777777777777777777777778;
 
     const contract = "0xA9AE9e538388980282CADA2a6B809653c4A39a28";
 
@@ -45,8 +45,8 @@ function SingleFAQArea () {
 
     async function sendTransaction (){
         try{
-            if(amount <= 90000 ) {
-                swal("", "Value should be more than 90000 MTV or 25000 LCH " , "error");
+            if(amount <= 95100) {
+                swal("", "Value should be more than 95,100 MTV or 26,417 LCH " , "error");
                 return;
             }
 
@@ -73,13 +73,39 @@ function SingleFAQArea () {
     }
 
     async function loadWeb3() {
-        swal("" , " If connected and account details are not displayed please change chain to MULTIVAC", "info")
+        swal("" , " connecting", "info")
         if(window.ethereum){
             try{    
                 window.web3 = new Web3(window.ethereum)
                 await activate(injected);
+                const chainId = 62621 // Multivac Mainnet
+
+                if (window.ethereum.networkVersion !== chainId) {
+                      try {
+                        await window.ethereum.request({
+                          method: 'wallet_switchEthereumChain',
+                          params: [{ chainId: Web3.utils.toHex(chainId) }]
+                        });
+                      } catch (err) {
+                          // This error code indicates that the chain has not been added to MetaMask
+                        if (err.code === 4902) {
+                          await window.ethereum.request({
+                            method: 'wallet_addEthereumChain',
+                            params: [
+                              {
+                                chainName: 'Multivac Mainnet',
+                                chainId: Web3.utils.toHex(chainId),
+                                nativeCurrency: { name: 'MULTIVAC', decimals: 18, symbol: 'MTV' },
+                                rpcUrls: ['https://rpc.mtv.ac/']
+                              }
+                            ]
+                          });
+                        }
+                      }
+                    }
+                   
                 
-               
+                swal("", "connected", "success")
                 localStorage.setItem('isWalletConnected', true)
             } catch (error){
                 console.log('error', error)
@@ -183,7 +209,7 @@ function SingleFAQArea () {
 			
 				<div className="count-down titled circled text-center">
 
-                    <h6>Current Token price: $0.004</h6>
+                    <h6>1 LCH = 3.6 MTV</h6>
 				
 				</div>
 				<div className="ico-progress buy">
