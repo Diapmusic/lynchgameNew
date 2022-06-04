@@ -10,9 +10,8 @@ import Web3 from 'web3';
 function SingleFAQArea () {
     const rate = 0.27777777777777777777777777777778;
 
-    const contract = "0xA9AE9e538388980282CADA2a6B809653c4A39a28";
 
-    const address = "0x1632710e70A93403eB1a09eA8e6eCcCB3955e160";
+    const address = "0x7BFbdd001E893C8f7F4257DcB694993909461f12";
 
     const {active, account, library, connector, activate, deactivate, chainId , currentProvider } = useWeb3React();
 
@@ -45,8 +44,8 @@ function SingleFAQArea () {
 
     async function sendTransaction (){
         try{
-            if(amount <= 95100) {
-                swal("", "Value should be more than 95,100 MTV or 26,417 LCH " , "error");
+            if(amount <= 90500) {
+                swal("", "Value should be more than 90,500 MTV or 26,417 LCH " , "error");
                 return;
             }
 
@@ -105,12 +104,13 @@ function SingleFAQArea () {
                     }
                    
                 
-                swal("", "connected", "success")
+               
                 localStorage.setItem('isWalletConnected', true)
             } catch (error){
                 console.log('error', error)
                 
-            }    
+            }  
+            swal("", "connected", "success")  
         
         } else if (window.web3) {
             window.web3 = new Web3(window.web3.currentProvider);
