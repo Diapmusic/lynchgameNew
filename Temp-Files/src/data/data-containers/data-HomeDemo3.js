@@ -343,6 +343,10 @@ export const TokenText = [
         img:HomeDemo3TokenIcon1
     },
     {
+        text:'There will be a 10% bonus on token bought in ICO',
+        img:HomeDemo3TokenIcon1
+    },
+    {
         text:'Minimun token Purchase price : $100 or equivalent in MTV',
         img:HomeDemo3TokenIcon1
     },
