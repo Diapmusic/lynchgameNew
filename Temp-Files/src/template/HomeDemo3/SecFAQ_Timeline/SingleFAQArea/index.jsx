@@ -44,8 +44,8 @@ function SingleFAQArea () {
 
     async function sendTransaction (){
         try{
-            if(amount <= 90500) {
-                swal("", "Value should be more than 90,500 MTV or 26,417 LCH " , "error");
+            if(amount <= 89000) {
+                swal("", "Value should be more than 89,000 MTV or 24,722 LCH " , "error");
                 return;
             }
 

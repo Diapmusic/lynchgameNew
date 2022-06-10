@@ -15,18 +15,18 @@ const IcoCounter = () => {
 
             <div className="content">
                 <div className="conuter-header">
-                    <h3 className="text-center mb-30">TOKEN SALE STARTS IN</h3>
+                    <h3 className="text-center mb-30">TOKEN SALE WEEK ONE ENDS IN</h3>
                 </div>
                 <div className="counterdown-content">
                     
                     <div className="count-down titled circled text-center">
                         <SlideCountdown
                           weeks={false}
-                          deadline="2022-12-27 15:58:22" />
+                          deadline="2023-01-03 15:58:22" />
                     </div>
                     <div className="ico-progress">
                        <ul className="list-unstyled list-percent list-inline clearfix mb-10">
-                          <li className="title">0 MTV</li>
+                          <li className="title">14000000 MTV</li>
                           <li className="strength"></li>
                        </ul>
                        <div className="current-progress">
