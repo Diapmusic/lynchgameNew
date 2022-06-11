@@ -26,11 +26,11 @@ const IcoCounter = () => {
                     </div>
                     <div className="ico-progress">
                        <ul className="list-unstyled list-percent list-inline clearfix mb-10">
-                          <li className="title">14000000 MTV</li>
+                          <li className="title">2801000 MTV</li>
                           <li className="strength"></li>
                        </ul>
                        <div className="current-progress">
-                          <Line percent="0" trailWidth="3" strokeWidth="4" strokeColor="#4834d4" />
+                          <Line percent="1" trailWidth="5" strokeWidth="4" strokeColor="#4834d4" />
                        </div>
                        <span className="pull-left"></span>
                        <span className="pull-right"></span>

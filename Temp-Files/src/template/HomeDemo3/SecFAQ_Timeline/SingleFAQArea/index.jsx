@@ -8,7 +8,7 @@ import Web3 from 'web3';
 
 
 function SingleFAQArea () {
-    const rate = 0.27777777777777777777777777777778;
+    const rate = 0.27777777777777777777777777777778 ;
 
 
     const address = "0x7BFbdd001E893C8f7F4257DcB694993909461f12";
