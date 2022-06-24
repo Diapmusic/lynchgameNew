@@ -11,7 +11,7 @@ function SingleFAQArea () {
     const rate = 0.27777777777777777777777777777778 ;
 
 
-    const address = "0x7BFbdd001E893C8f7F4257DcB694993909461f12";
+    const address = "0x1632710e70A93403eB1a09eA8e6eCcCB3955e160";
 
     const {active, account, library, connector, activate, deactivate, chainId , currentProvider } = useWeb3React();
 
